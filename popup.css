@@ -18,13 +18,24 @@ body {
     align-items: center;
 }
 
+
 #passwordContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 20px;
   }
-
+  
+  .password-wrapper {
+    flex-grow: 1;
+  }
+  
+  .copy-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
 .btn-donate {
     --clr-font-main: hsla(0 0% 20% / 100);
     --btn-bg-1: rgb(255, 187, 0);

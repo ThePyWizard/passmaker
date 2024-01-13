@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Random Password Generator</title>
+  <title>passmaker</title>
   <script src="popup.js"></script>
   <link rel="stylesheet" href="popup.css">
 </head>
@@ -12,7 +12,12 @@
   <div class="btn-container">
     <button id="generatePassword" class="btn-donate" role="button">Generate Password</button>
   </div>
-  
-  <div id="passwordContainer"></div>
+
+  <div id="passwordContainer">
+    <div class="password-wrapper">
+      <div id="password-output"></div>
+    </div>
+    <button id="copyPassword" class="copy-button">Copy</button>
+  </div>
 </body>
 </html>
