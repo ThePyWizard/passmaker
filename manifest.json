@@ -3,17 +3,13 @@
     "version": "0.0.1",
     "manifest_version": 2,
     "browser_action": {
-        "default_icon": "icon.png",
-        "default_popup": "index.html"
+        "default_icon": "./img/logo48.svg",
+        "default_popup": "popup.html"
     },
     "icons": {
-        "16": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
+        "16": "./img/logo16.svg",
+        "48": "./img/logo48.svg",
+        "128": "./img/logo128.svg"
     },
-    "permissions": [
-        "tabs",
-        "http://*/*",
-        "https://*/*"
-    ]
+    "permissions": ["storage"]
 }
