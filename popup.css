@@ -1,6 +1,6 @@
 body {
     width: 200px;
-    height: 350px;
+    height: 300px;
     margin: 0;
     padding: 10px;
   }
@@ -24,6 +24,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
+    border: 1rem;
   }
   
   .password-wrapper {
@@ -73,3 +74,32 @@ body {
     }
   }
   
+  #copyPassword{
+  
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 5px 10px;
+    border: 0;
+    color: #3a4149;
+    background: #e7ebee;
+    line-height: 1.15;
+    font-size: 16px;
+  }
+
+
+
+#copyPassword:hover {
+      transition: all .1s ease;
+      box-shadow: 0 0 0 0 #fff, 0 0 0 3px #ff9100;
+  }
+
+
+#password-output {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: var(--size, 1rem);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    margin-left: 20px;
+}
