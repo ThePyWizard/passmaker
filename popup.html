@@ -1,13 +1,18 @@
-<!-- popup.html -->
 <!DOCTYPE html>
 <html>
 <head>
   <title>Random Password Generator</title>
   <script src="popup.js"></script>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <img src="./img/logo128.svg" alt="logo">
-  <button id="generatePassword">Generate Password</button>
+  <div class="logo-container">
+    <img class="logo" src="./img/logo128.svg" alt="logo">
+  </div>
+  <div class="btn-container">
+    <button id="generatePassword" class="btn-donate" role="button">Generate Password</button>
+  </div>
+  
   <div id="passwordContainer"></div>
 </body>
 </html>
